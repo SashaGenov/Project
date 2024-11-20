@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: sgenof/Project 10
+          images: sgenof/Project_10
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
